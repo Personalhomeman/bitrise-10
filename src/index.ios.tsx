@@ -11,11 +11,13 @@ import {
   Text,
   View
 } from 'react-native';
+import Hello from './components/Hello';
 
 export default class onistapp extends React.Component<object, object> {
   render() {
     return (
       <View style={styles.container}>
+        <Hello name="Nik"/>
         <Text style={styles.welcome}>
           Welcome to React Native!
         </Text>
